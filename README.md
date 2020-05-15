@@ -17,13 +17,17 @@ E no final, para efetuar os cálculos, será necessário digitar "=" (igual), e 
 Além das teclas válidas para o cálculo da expressão, poderá ser digitados os seguintes símbolos sobre a linha de entrada de dados da calculadora:
 
 C: este símbolo faz com que sejam ignorados todos os caracteres à esquerda deste ponto.
+
 &lt;: este símbolo faz com que seja ignorado apenas o primeiro caractere à esquerda deste ponto, se não houver nenhum caractere à esquerda será retornado uma mensagem de erro.
 
 A calculadora possui também uma memória, que poderá ser utilizada da seguinte forma:
 
 M+: soma o resultado da expressão à esquerda do símbolo ao conteúdo atual da memória. Caso não haja nenhuma expressão, um aviso de erro será apresentado.
+
 M-: subtrai o resultado da expressão à esquerda do símbolo ao conteúdo atual da memória. Caso não haja nenhuma expressão, um aviso de erro será apresentado.
+
 MR:  mostra na saída o valor atual contido na memória. Caso possua alguma expressão digitada na entrada, o valor contido na memória será colocado junto na expressão, para poder ser utilizado em alguma operação.
+
 MC: apaga  o valor contido na memória, armazenando lá o número zero.
 
 Lembrando novamente que nenhuma letra precisará ser maiúscula.
